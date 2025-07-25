@@ -1,152 +1,117 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>رزومه کیمیا مختاری</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
       margin: 0;
-      padding: 0;
-      font-family: 'Vazirmatn', Tahoma, sans-serif;
-      background-color: #121212;
-      color: #e0e0e0;
+      font-family: 'Tahoma', sans-serif;
+      background: #fff;
+      direction: rtl;
+      color: #333;
+    }
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 30%;
+      background: #d8a89e;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+    .sidebar h2 {
+      margin: 10px 0 20px;
+      font-size: 24px;
+    }
+    .sidebar p {
+      font-size: 14px;
+      margin: 8px 0;
+    }
+    .main {
+      width: 70%;
+      padding: 30px;
+      background: #fff;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h3 {
+      border-bottom: 2px solid #d8a89e;
+      padding-bottom: 5px;
+      color: #b46e63;
+    }
+    .section p {
       line-height: 1.8;
     }
-
-    header {
-      background: linear-gradient(135deg, #8e24aa, #6a1b9a);
-      color: white;
-      text-align: center;
-      padding: 50px 20px;
-      font-size: 32px;
-      font-weight: bold;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-    }
-
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: #1e1e1e;
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 0 30px rgba(255, 64, 129, 0.1);
-    }
-
-    h2 {
-      color: #e91e63;
-      border-bottom: 1px solid #333;
-      padding-bottom: 5px;
-      margin-top: 30px;
-      font-size: 22px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li::before {
-      content: "✔️ ";
-      margin-left: 5px;
-    }
-
-    .contact {
-      background-color: #2c2c2c;
-      padding: 20px;
-      border-radius: 12px;
+    .contact-icons {
+      font-size: 16px;
       margin-top: 20px;
     }
-
-    .contact p {
-      margin: 12px 0;
-      font-size: 16px;
-    }
-
-    .contact a {
+    .contact-icons a {
+      display: block;
+      margin: 6px 0;
       text-decoration: none;
-      color: #90caf9;
-    }
-
-    .socials {
-      margin-top: 25px;
-      text-align: center;
-    }
-
-    .socials a {
-      text-decoration: none;
-      color: #e91e63;
-      font-size: 30px;
-      margin: 0 15px;
-      transition: color 0.3s ease, transform 0.3s ease;
-    }
-
-    .socials a:hover {
-      color: #ff4081;
-      transform: scale(1.2);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      color: #777;
-      font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      main {
-        margin: 20px;
-        padding: 20px;
-      }
-
-      header {
-        font-size: 24px;
-        padding: 30px 15px;
-      }
-
-      .socials a {
-        font-size: 26px;
-        margin: 0 10px;
-      }
+      color: white;
     }
   </style>
 </head>
 <body>
-
-  <header>
-    رزومه کیمیا مختاری
-  </header>
-
-  <main>
-    <h2>درباره من</h2>
-    <p>دانش اموز مهندسی کامپیوتر، علاقه‌مند به طراحی وب، رابط کاربری و برنامه‌نویسی فرانت‌اند با تمرکز بر تجربه کاربری حرفه‌ای.</p>
-
-    <h2>مهارت‌ها</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, TailwindCSS</li>
-      <li>Git و GitHub</li>
-    </ul>
-
-    <h2>تماس با من</h2>
-    <div class="contact">
-      <p>ایمیل: <a href="kimiamokhtari50@gmail.com">kimiamokhtari50@gmail.com</a></p>
-      <p>شماره تماس: ۰۹۹۳۷۹۷۵۵۳۱</p>
-      <p>اینستاگرام: <a href="https://instagram.com/im._.kimia3" target="_blank">@im._.kimia3</a></p>
+  <div class="container">
+    <div class="sidebar">
+      <img src="https://raw.githubusercontent.com/imkimia/resume.site/main/profile.jpg" alt="Profile" class="profile-pic" />
+      <h2>کیمیا مختاری</h2>
+      <p>دانش‌آموز پایه دوازدهم</p>
+      <p>رشته شبکه و نرم‌افزار رایانه</p>
+      <p>هنرستان فنی و حرفه‌ای هدف</p>
+      <div class="contact-icons">
+        <a href="tel:09937975531">📞 ۰۹۹۳۷۹۷۵۵۳۱</a>
+        <a href="mailto:kimiamokhtari50@gmail.com">✉️ kimiamokhtari50@gmail.com</a>
+        <a href="https://t.me/09937975531">📱 تلگرام</a>
+        <a href="https://wa.me/989937975531">💬 واتساپ</a>
+        <a href="https://instagram.com/im._.kimia3">📷 اینستاگرام</a>
+      </div>
     </div>
-
-    <div class="socials">
-      <a href="https://instagram.com/im._.kimia3" target="_blank" title="اینستاگرام"><i class="fab fa-instagram"></i></a>
-      <a href="https://wa.me/989937975531" target="_blank" title="واتساپ"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://t.me/09937975531" target="_blank" title="تلگرام"><i class="fab fa-telegram"></i></a>
+    <div class="main">
+      <div class="section">
+        <h3>درباره من</h3>
+        <p>
+          من کیمیا مختاری هستم؛ فردی مسئولیت‌پذیر، باانگیزه و مشتاق یادگیری. با تسلط بر مجموعه نرم‌افزارهای Office شامل Word، Excel و PowerPoint، توانایی بالایی در ارائه‌ مطالب، مدیریت داده‌ها و نگارش گزارش‌های دقیق دارم.
+          همچنین به زبان انگلیسی در سطح خوبی مسلط هستم که به من کمک می‌کند در محیط‌های بین‌المللی یا کار با منابع خارجی عملکرد مؤثری داشته باشم.
+          مهارت کار با سیستم‌عامل ویندوز، از نصب و راه‌اندازی گرفته تا رفع مشکلات رایج، از دیگر توانمندی‌های من است.
+          در کنار مهارت‌های فنی، روحیه‌ی کار تیمی و تعامل مؤثر با دیگران را جزو نقاط قوت خود می‌دانم؛ چرا که باور دارم موفقیت‌های بزرگ در سایه همکاری و مشارکت شکل می‌گیرند.
+        </p>
+      </div>
+      <div class="section">
+        <h3>سوابق کاری</h3>
+        <p>کارآموزی ۲ ماهه در یک شرکت صنعتی با تمرکز بر جمع‌بندی داده‌ها و دسته‌بندی حقوق کارگران</p>
+      </div>
+      <div class="section">
+        <h3>مهارت‌ها</h3>
+        <ul>
+          <li>تسلط کامل به Word، Excel، PowerPoint</li>
+          <li>زبان انگلیسی قوی</li>
+          <li>نصب و راه‌اندازی ویندوز</li>
+          <li>توانایی کار تیمی و ارتباط مؤثر</li>
+        </ul>
+      </div>
+      <div class="section">
+        <h3>اطلاعات شخصی</h3>
+        <p>تاریخ تولد: ۱۳۸۶/۱۰/۷</p>
+        <p>وضعیت تاهل: مجرد</p>
+      </div>
     </div>
-  </main>
-
-  <footer>
-     کیمیا مختاری
-  </footer>
-
+  </div>
 </body>
 </html>
