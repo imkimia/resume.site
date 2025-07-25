@@ -1,112 +1,121 @@
-
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>رزومه من</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #ffeaf4;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    header {
-      background: #f9dce3;
-      padding: 2rem;
-      text-align: center;
-      position: relative;
-    }
-    .profile-pic {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 4px solid white;
-      box-shadow: 0 0 8px rgba(0,0,0,0.1);
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      background-color: #f2c9d3;
-      padding: 1rem 0;
-      font-weight: bold;
-    }
-    nav a {
-      color: #333;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: #e91e63;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #e91e63;
-      padding-bottom: 0.5rem;
-    }
-    .section-content {
-      margin-top: 1rem;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه کیمیا مختاری</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: #fce4ec;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        h1 {
+            margin: 1rem 0 0.5rem;
+        }
+        nav {
+            background-color: #f8bbd0;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-weight: bold;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #880e4f;
+            border-bottom: 2px solid #c2185b;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            line-height: 1.8;
+            text-align: justify;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="profile.jpg" alt="عکس پروفایل" class="profile-pic">
-    <h1>کیمیا مختاری</h1>
-    <p>دانش‌آموز رشته شبکه و نرم‌افزار رایانه</p>
-  </header>
 
-  <nav>
-    <a href="#about">درباره من</a>
-    <a href="#skills">مهارت‌ها</a>
-    <a href="#experience">تجربه کاری</a>
-    <a href="#contact">تماس با من</a>
-  </nav>
+<div class="container">
+    <header>
+        <img src="profile.jpg" alt="عکس پروفایل" class="profile-img">
+        <h1>کیمیا مختاری</h1>
+        <p>دانش‌آموز رشته شبکه و نرم‌افزار رایانه</p>
+    </header>
 
-  <section id="about">
-    <h2>درباره من</h2>
-    <div class="section-content">
-      <p>من کیمیا مختاری هستم؛ فردی مسئولیت‌پذیر، باانگیزه و مشتاق یادگیری. با تسلط بر مجموعه نرم‌افزارهای Office شامل Word، Excel و PowerPoint، توانایی بالایی در ارائه‌ مطالب، مدیریت داده‌ها و نگارش گزارش‌های دقیق دارم. همچنین به زبان انگلیسی در سطح خوبی مسلط هستم که به من کمک می‌کند در محیط‌های بین‌المللی یا کار با منابع خارجی عملکرد مؤثری داشته باشم. مهارت کار با سیستم‌عامل ویندوز، از نصب و راه‌اندازی گرفته تا رفع مشکلات رایج، از دیگر توانمندی‌های من است. در کنار مهارت‌های فنی، روحیه‌ی کار تیمی و تعامل مؤثر با دیگران را جزو نقاط قوت خود می‌دانم.</p>
-    </div>
-  </section>
+    <nav>
+        <a href="#about">درباره من</a>
+        <a href="#skills">مهارت‌ها</a>
+        <a href="#experience">تجربه کاری</a>
+        <a href="#contact">تماس با من</a>
+    </nav>
 
-  <section id="skills">
-    <h2>مهارت‌ها</h2>
-    <div class="section-content">
-      <ul>
-        <li>Word، Excel، PowerPoint</li>
-        <li>زبان انگلیسی قوی</li>
-        <li>نصب و راه‌اندازی ویندوز</li>
-        <li>توانایی کار تیمی و ارتباط مؤثر</li>
-      </ul>
-    </div>
-  </section>
+    <section id="about">
+        <h2>درباره من</h2>
+        <p>
+            من کیمیا مختاری هستم؛ فردی مسئولیت‌پذیر، باانگیزه و مشتاق یادگیری.
+            با تسلط بر مجموعه نرم‌افزارهای Office شامل Word، Excel و PowerPoint،
+            توانایی بالایی در ارائه مطالب، مدیریت داده‌ها و نگارش گزارش‌های دقیق دارم.
+            همچنین به زبان انگلیسی در سطح خوبی مسلط هستم که به من کمک می‌کند در محیط‌های بین‌المللی یا کار با منابع خارجی عملکرد مؤثری داشته باشم.
+            مهارت کار با سیستم‌عامل ویندوز، از نصب و راه‌اندازی گرفته تا رفع مشکلات رایج، از دیگر توانمندی‌های من است.
+            در کنار مهارت‌های فنی، روحیه‌ی کار تیمی و تعامل مؤثر با دیگران را جزء نقاط قوت خود می‌دانم.
+        </p>
+    </section>
 
-  <section id="experience">
-    <h2>تجربه کاری</h2>
-    <div class="section-content">
-      <p>کارآموزی ۲ ماهه در شرکت صنعتی با فعالیت در دسته‌بندی داده‌ها و حقوق کارگران.</p>
-    </div>
-  </section>
+    <section id="skills">
+        <h2>مهارت‌ها</h2>
+        <p>
+            ✓ تسلط بر Word، Excel، PowerPoint  
+            ✓ کار با سیستم‌عامل ویندوز  
+            ✓ نگارش گزارش‌ها و مستندات  
+            ✓ کار تیمی و تعامل مؤثر  
+            ✓ تسلط نسبی به زبان انگلیسی فنی  
+        </p>
+    </section>
 
-  <section id="contact">
-    <h2>تماس با من</h2>
-    <div class="section-content">
-      <p>شماره تماس: ۰۹۹۳۷۹۷۵۵۳۱</p>
-      <p>ایمیل: kimiamokhtari50@gmail.com</p>
-      <p>اینستاگرام: im._.kimia3</p>
-    </div>
-  </section>
+    <section id="experience">
+        <h2>تجربه کاری</h2>
+        <p>
+            در حال حاضر در حال یادگیری مهارت‌های تخصصی رشته شبکه و نرم‌افزار رایانه هستم.
+            در طول دوران تحصیل، پروژه‌هایی مانند طراحی پاورپوینت، مستندسازی و تحقیق‌های مرتبط با رایانه انجام داده‌ام.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>تماس با من</h2>
+        <p>
+            📧 ایمیل: kimia@example.com  
+            📱 شماره تماس: 0912-000-0000  
+            💻 گیت‌هاب: <a href="https://github.com/imkimia" target="_blank">github.com/imkimia</a>
+        </p>
+    </section>
+</div>
 
 </body>
 </html>
